@@ -25,7 +25,7 @@ import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
  *
  */
 @Path("/rest")
-public class TestApp {
+public class UploadRest {
 	
 	public static class FileForm {
 		private byte[] file;

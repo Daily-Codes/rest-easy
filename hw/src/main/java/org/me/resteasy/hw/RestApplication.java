@@ -21,7 +21,7 @@ public class RestApplication extends Application {
 	 */
 	@Override
 	public Set<Class<?>> getClasses() {
-		Set<Class<?>> classes = new HashSet<>();
+		Set<Class<?>> classes = new HashSet<Class<?>>();
 		classes.add(IndexRest.class);
 		classes.add(UploadRest.class);
 		return classes;

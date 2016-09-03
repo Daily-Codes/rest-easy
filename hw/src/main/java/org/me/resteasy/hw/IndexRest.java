@@ -11,7 +11,7 @@ import javax.ws.rs.Path;
  * @author ZhongWen Li (mailto:lizw@primeton.com)
  *
  */
-public class TestApp2 {
+public class IndexRest {
 	
 	@GET
 	@Path("/rest/index")
